@@ -2,3 +2,10 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.aaa {
+    height: 200px;
+    width: auto;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
