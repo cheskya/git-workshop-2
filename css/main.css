@@ -2,3 +2,24 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.buh {
+	animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+#scary {
+	position: absolute;
+	inset: 0;
+	width: 100vw;
+	opacity: 0;
+	pointer-events: none;
+}
