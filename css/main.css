@@ -2,3 +2,22 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+marquee {
+    font-size: 5rem;
+}
+
+.freddy {
+    height: 200px;
+    width: auto;
+    animation: 1s infinite alternate freddy-dance;
+}
+
+@keyframes freddy-dance {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
